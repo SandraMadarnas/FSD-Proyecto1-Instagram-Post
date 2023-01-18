@@ -1,0 +1,94 @@
+* {
+	padding: 3px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 1%;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.postcard-header h1 {
+	width: 400px;
+	margin: 3px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 2px;
+	width: 400px;
+}
+
+input {
+	border: none;
+	border-bottom: gray !important;
+}
+input[type="text"],
+select {
+	width: 100%;
+	padding: 3px;
+	margin: 3px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="textarea"],
+select {
+	width: 100%;
+	padding: 3px;
+	margin: 3px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 14px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	width: 50%;
+	background-color: #4caf50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049b9;
+}
